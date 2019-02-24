@@ -1,0 +1,64 @@
+.header {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 30px;
+}
+
+.clock {
+  width: 80%;
+  margin: 10px auto 70px;
+  max-width: 850px;
+  box-sizing: border-box;
+}
+
+.clock > div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.date {
+  font-size: 3em;
+  padding-top: 25px;
+  padding-left: 14px;
+}
+
+.time {
+  font-size: 10em;
+}
+
+#year::after {
+  content: '年';
+  font-size: 0.6em;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+
+#month::after {
+  content: '月';
+  font-size: 0.6em;
+  margin-left: 2px;
+  margin-right: 3px;
+}
+
+#day::after {
+  content: '日';
+  font-size: 0.6em;
+  margin-left: 2px;
+}
+
+#hour::after, #minute::after {
+  content: ':';
+}
+
+.warning {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:480px){
+  .time .date {
+    font-size: 1em;
+  }
+}
