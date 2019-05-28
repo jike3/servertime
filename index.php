@@ -57,7 +57,7 @@ $date->setTimeZone(new DateTimeZone('Asia/Tokyo'));
   <script>
     let changeDate = (dateobj) => {
       document.getElementById('year').textContent = dateobj.getFullYear();
-      document.getElementById('month').textContent = dateobj.getMonth()+1;
+      document.getElementById('month').textContent = dateobj.getMonth();
       document.getElementById('day').textContent = dateobj.getDate();
       document.getElementById('hour').textContent = ('0'+dateobj.getHours()).slice(-2);
       document.getElementById('minute').textContent = ('0'+dateobj.getMinutes()).slice(-2);
