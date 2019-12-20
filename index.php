@@ -46,7 +46,7 @@ $date->setTimeZone(new DateTimeZone('Asia/Tokyo'));
     <div class="siimple-tip siimple-tip--warning siimple-tip--exclamation warning">
       おそらく公式のHTTPサーバーとゲームサーバーの時刻は同じであろう、という考えに基づき<br>
       HTTPサーバーから取得した時刻を表示しています。<br>
-      仕組み上最大で2秒程度の遅れが出ます。
+      仕組み上最大で2秒程度の遅れが出ます!
     </div>
     <div class="siimple-footer" align="center">
       アルデバラン時計塔時刻管理局 by JIKE <a href="https://ro-mastodon.puyo.jp/@jike">Mastodon</a> <a href="https://twitter.com/jike37">Twitter</a><br>
